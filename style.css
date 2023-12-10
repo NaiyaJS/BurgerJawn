@@ -112,9 +112,17 @@ the gray= 1f1e1c
 
 .chef-container{
 display: flex;
+background-color: #0d1b20;
 flex-direction: column;
 align-items: center;
 padding: 50px;
+
+}
+
+.chef-container h2{
+    font-family:  "libre baskerville", sans-serif;
+    
+    color: #eec47a;
 }
 
 .chef-img img{
