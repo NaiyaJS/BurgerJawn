@@ -1,0 +1,136 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+/* end of css reste */
+/* header{
+the gray= 1f1e1c
+    background-color:#440c0c;burgandy
+    padding:10px;
+     color: #eec47a gold
+}
+     */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#0a0a09;
+    padding:10px;
+}
+
+.header-container .custom-outline{
+    border-color: #eec47a;
+    color: azure;
+}
+
+#burgerJawn a {
+    width:100%;
+    height:auto;
+    font-family: "libre baskerville", sans-serif;
+    color: azure ;
+    text-decoration: none;
+
+}
+
+
+.first-container{
+    background:#0d1b20;
+    color: #eec47a;
+    font-family: "libre baskerville", sans-serif ;
+}
+.menu-container{
+    background:#091214;
+    color: #eec47a;
+    font-family: "libre baskerville", sans-serif ;
+}
+
+.custom-card{
+    background-color: #eec47a;
+    
+
+}
+.card-body{
+    text-align: left;
+}
+.price{
+    float: right;
+}
+
+.chef-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px;
+}
+
+.chef-img img{
+    background-color: #0d1b20;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;  /*for horizontal */
+    align-items: center;  /*for verticel */
+    background-color: #0a0a09;
+    color: #eec47a;
+    padding: 5px;
+}
