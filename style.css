@@ -91,12 +91,12 @@ the gray= 1f1e1c
 
 .first-container{
     background-color: #0d1b20;
-    padding-bottom: 1px;
+    
 }
 
 .first-container .logo-img{
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
 }
 
 .first-container .card {
@@ -146,14 +146,27 @@ the gray= 1f1e1c
 .menu-container{
     background:#091214;
     font-family: "libre baskerville", sans-serif ;
+    align-items: center;
+   
 }
+.menu-container .card-header{
+    background-color:#dcb97c;
+    color:#091214
 
-
+    
+}
+.menu-container .card-text{
+    color:#0d1b20
+}
 .card-body{
     text-align: left;
+    background-color:beige;
+    
+    
 }
 .price{
     float: right;
+    color:#091214;
 }
 
 .chef-container{
