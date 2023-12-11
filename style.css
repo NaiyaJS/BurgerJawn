@@ -75,6 +75,7 @@ the gray= 1f1e1c
 .header-container .custom-outline{
     border-color: #eec47a;
     color: azure;
+    border-radius: 0;
 }
 
 #burgerJawn a {
@@ -86,12 +87,45 @@ the gray= 1f1e1c
 
 }
 
-
 .first-container{
-    background:#0d1b20;
-    color: #eec47a;
-    font-family: "libre baskerville", sans-serif ;
+    background-color: #0d1b20;
+    padding-bottom: 1px;
 }
+
+.first-container .logo-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.first-container .card {
+    background:#0d1b20;
+    color: #eabb69;
+    font-family: "libre baskerville", sans-serif ;
+    
+}
+.first-container .card h1{
+    padding-top: 50px ;
+}
+.first-container .card h4{
+    padding-top: 25px ;
+}
+.first-container .card h5{
+    padding-top: 25px ;
+}
+.first-container .row{
+    padding-top: 50px;
+}
+
+
+
+.first-container .custom-outline{
+    border-color:#eec47a;
+    color:azure;
+    border-radius: 0;
+    width: 200px;
+    
+}
+
 .menu-container{
     background:#091214;
     color: #eec47a;
@@ -129,6 +163,7 @@ padding: 50px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    object-fit:fill;
     margin-top: 10px;
     
 }
