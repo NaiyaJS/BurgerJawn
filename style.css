@@ -129,9 +129,16 @@ the gray= 1f1e1c
     color:azure;
     text-decoration: none;
 }
+#sButton1 a:hover{
+    color: #dcb97c;
+}
+
 #sButton2 a{
     color: azure;
     text-decoration: none;
+}
+#sButton2 a:hover{
+    color: #dcb97c;
 }
 
 .menu-container{
