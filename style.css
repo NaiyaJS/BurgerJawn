@@ -67,7 +67,6 @@ the gray= 1f1e1c
 .header-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color:#0a0a09;
     padding:10px;
 }
@@ -76,6 +75,9 @@ the gray= 1f1e1c
     border-color: #eec47a;
     color: azure;
     border-radius: 0;
+}
+#signUpButton:hover{
+    color: #eec47a;
 }
 
 #burgerJawn a {
@@ -143,15 +145,10 @@ the gray= 1f1e1c
 
 .menu-container{
     background:#091214;
-    color: #eec47a;
     font-family: "libre baskerville", sans-serif ;
 }
 
-.custom-card{
-    background-color: #eec47a;
-    
 
-}
 .card-body{
     text-align: left;
 }
