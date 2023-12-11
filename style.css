@@ -79,7 +79,7 @@ the gray= 1f1e1c
 
 #burgerJawn a {
     width:100%;
-    height:auto;
+   max-height: 500;
     font-family: "libre baskerville", sans-serif;
     color: azure ;
     text-decoration: none;
@@ -130,6 +130,37 @@ padding: 50px;
     height: 200px;
     border-radius: 50%;
     margin-top: 10px;
+    
+}
+
+.testimonials-container{
+    background-color: #091214;
+    padding-bottom: 25px;
+}
+.testimonials-container h2{
+    font-family: "libre baskerville", sans-serif;
+    color: #eec47a;
+    padding-top: 50px;
+    
+}
+.testimonials-container .card{
+    background-color:#0d1b20;
+    justify-content: center;
+}
+
+.testimonials-container .card-title{
+    color:azure;
+}
+.testimonials-container .card-text{
+    color:#dcb97c;
+}
+
+.testimonials-container .card img{
+    /* width: 200px;
+    height: 200px; */
+    max-height: 250px;
+    object-fit: contain; /* stops the warping when adjusting*/
+    align-items: center;
     
 }
 
