@@ -95,7 +95,7 @@ the gray= 1f1e1c
 }
 
 .first-container .logo-img{
-    max-width: 100%;
+    
     max-height: 100%;
 }
 
@@ -106,7 +106,7 @@ the gray= 1f1e1c
     
 }
 .first-container .card h1{
-    padding-top: 50px ;
+    padding-top: 0px ;
 }
 .first-container .card h4{
     padding-top: 25px ;
