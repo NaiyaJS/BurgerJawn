@@ -125,6 +125,14 @@ the gray= 1f1e1c
     width: 200px;
     
 }
+#sButton1 a {
+    color:azure;
+    text-decoration: none;
+}
+#sButton2 a{
+    color: azure;
+    text-decoration: none;
+}
 
 .menu-container{
     background:#091214;
