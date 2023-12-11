@@ -97,6 +97,8 @@ the gray= 1f1e1c
 .first-container .logo-img{
     
     max-height: 100%;
+    padding-bottom: 10px;
+
 }
 
 .first-container .card {
@@ -203,15 +205,17 @@ padding: 50px;
     padding-top: 50px;
     
 }
-.testimonials-container .card{
+.testimonials-container .card-body{
     background-color:#0d1b20;
     justify-content: center;
+    font-family:"seshat", sans-serif ;
 }
 
 .testimonials-container .card-title{
     color:azure;
 }
 .testimonials-container .card-text{
+   
     color:#dcb97c;
 }
 
